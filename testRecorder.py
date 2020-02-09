@@ -42,8 +42,6 @@ def convert(lines):
 
 def write_file(filename, new):
 
-	outputTxt = []
-
 	with open(filename, 'w', encoding = 'utf-8-sig') as file:
 
 		for line in new:
