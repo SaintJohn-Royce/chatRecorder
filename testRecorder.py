@@ -1,3 +1,18 @@
+#def compose_name():
+
+	#nameList = []
+
+	#amount = input('how many people are involved in this conversation? ')
+
+	#amount = int(amount)
+
+	#for index in range(amount):
+
+		#names = input('please input the name of the person number ' + str(index + 1) + ': ')
+
+		#nameList.append(names)
+
+	#return nameList
 
 def read_file(filename):
 
@@ -40,6 +55,7 @@ def convert(lines):
 
 	return new
 
+
 def write_file(filename, new):
 
 	with open(filename, 'w', encoding = 'utf-8-sig') as file:
@@ -49,6 +65,8 @@ def write_file(filename, new):
 			file.write(line + '\n')
 
 def main():
+
+	#nameList = compose_name()
 
 	lines = read_file('input.txt')
 
